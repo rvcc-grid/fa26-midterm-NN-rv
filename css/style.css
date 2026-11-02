@@ -30,13 +30,20 @@ h1 {
     max-width:80%;
     display:block;
     margin:0px auto;
+    border: solid #007991 5px;
+    border-radius: 1rem;
 }
 
 /* Projects */
+#projects div {
+    padding:1rem;
+}
 #projects img { 
     display:block;
     max-width:50%;
     margin:0px auto;
+    border: solid #007991 5px;
+    border-radius: 1rem;
 }
 #projects h2 {
     text-align:center;
@@ -95,7 +102,7 @@ footer {
         align-items:center;
     }
     #hero img {
-        max-width:20%;
+        max-width:40%;
     }
 
     /* Projects */
@@ -107,7 +114,7 @@ footer {
         padding:2rem;
     }
     #projects img { 
-        max-width:20%;
+        max-width:40%;
     }
 
     /* Reviews */
