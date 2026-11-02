@@ -21,14 +21,14 @@ main {
 }
 h1 {
     font-size:400%;
+    font-style: italic;
     margin:1rem;
     padding:0px;
     color: #439a86;
 }
 #hero div {
     padding:4rem;
-    font-size: 200%;
-    font-style: italic;
+    font-size: 2rem;
     color: #007991;
 }
 #hero img {
@@ -43,6 +43,7 @@ h1 {
 #projects div {
     padding:1rem;
     color: #007991;
+    font-size: 110%;
 }
 #projects img { 
     display:block;
@@ -53,7 +54,7 @@ h1 {
 }
 #projects h2 {
     text-align:center;
-    font-size:200%; 
+    font-size:250%; 
     font-style: italic;
     color: #439a86;
 }
