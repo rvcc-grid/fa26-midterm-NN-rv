@@ -11,6 +11,7 @@ header,main,footer {
     box-shadow:10px 10px 10px rgba(0,0,0,.5);
     margin-bottom:2rem;
     border:5px solid #007991;
+    border-radius: 2.5rem;
 }
 header {
     text-align:center;
@@ -22,12 +23,16 @@ h1 {
     font-size:400%;
     margin:1rem;
     padding:0px;
+    color: #439a86;
 }
 #hero div {
     padding:4rem;
+    font-size: 200%;
+    font-style: italic;
+    color: #007991;
 }
 #hero img {
-    max-width:80%;
+    max-width:50%;
     display:block;
     margin:0px auto;
     border: solid #007991 5px;
@@ -37,6 +42,7 @@ h1 {
 /* Projects */
 #projects div {
     padding:1rem;
+    color: #007991;
 }
 #projects img { 
     display:block;
@@ -48,6 +54,8 @@ h1 {
 #projects h2 {
     text-align:center;
     font-size:200%; 
+    font-style: italic;
+    color: #439a86;
 }
 
 /* Reviews */
@@ -72,10 +80,19 @@ h1 {
 .review .title {
     font-style:italic;
 }
+#reviews h2 {
+    font-size: 200%;
+    font-style:italic;
+    color: #439a86;
+}
 
 /* Footer */
 footer {
+    background-color: #222e50;
+    border-color: #e9d985;
     text-align:center;
+    font-size: 125%;
+    color: #439a86;
 }
 
 
@@ -102,7 +119,7 @@ footer {
         align-items:center;
     }
     #hero img {
-        max-width:40%;
+        max-width:50%;
     }
 
     /* Projects */
@@ -114,7 +131,7 @@ footer {
         padding:2rem;
     }
     #projects img { 
-        max-width:40%;
+        max-width:50%;
     }
 
     /* Reviews */
@@ -131,5 +148,13 @@ footer {
     }
 
     /* Footer */
+    footer {
+    background-color: #222e50;
+    border-color: #e9d985;
+    text-align:center;
+    font-size: 125%;
+    color: #439a86;
+    padding: 1.5rem;
+    }
 
 }
